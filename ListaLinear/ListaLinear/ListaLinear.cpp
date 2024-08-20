@@ -112,7 +112,7 @@ void buscarElemento()
 	 cin >> pesquisa;
 	/* PROGRAMA PROCURARA ESTE VALOR NA LISTA*/
 	 for (int n = 0; n <= lista[n]; n++) {
-		 /*SE ENCONTRAR, DIGITE EM QUE POSIÇÃO ELE SE ENCONTRA*/
+		 /*SE ENCONTRAR, DIGITE EM QUE POSIÃ‡ÃƒO ELE SE ENCONTRA*/
 			if (lista[n] == pesquisa)
 			{
 				encontrado = 1;
@@ -120,7 +120,7 @@ void buscarElemento()
 				/* PROGRAMA EXIBIRA OS NUMEROS DA LISTA EM QUE ESTE VALOR SE ENCONTRA*/
 				cout << "A posicao e: " << pos << endl;
 			}
-	/* SE NÃO ENCONTRAR, PROGRAMA INFORMARÁ QUE NÃO FOI POSSÍVEL ENCONTRAR OS VALORES NA LISTA*/
+	/* SE NÃƒO ENCONTRAR, PROGRAMA INFORMARÃ QUE NÃƒO FOI POSSÃVEL ENCONTRAR OS VALORES NA LISTA*/
 		if (encontrado == 0)
 		{
 			cout << "O elemento nao pode ser encontrado na posicao: " << n << endl;
